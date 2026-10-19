@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to right, #000, #47395c7a);
+    color: #ffffff;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu-header {
+    display: flex;
+    gap: 58px; 
+    font-family: "Geom", sans-serif;   
+    color: #e9e5e5;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 1px solid #e9e5e5;
+    padding-top: 50px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-texto-titulo {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #e9e5e5;
+}
+
+.conteudo-principal-texto-subtitulo {
+    font-family: "Geom", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #e9e5e5;
+}
+
+.conteudo-principal-img {
+    width: 400px; 
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    margin-bottom: 48px;
+    border-top: 1px solid #e9e5e5;
+    padding-top: 48px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    color: #e9e5e5;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-texto {
+    font-family: "Geom", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #e9e5e5;
+    padding: 0 24px;;
+    text-align: center;
+}
+
+.rodape {
+    padding: 32px;
+    margin-bottom: 48px;
+    border-top: 1px solid #e9e5e5;
+}
+
+.rodape-titulo {
+    display: block;
+    margin: 0 auto;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #e9e5e5;
+}
