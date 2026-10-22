@@ -4,6 +4,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-D8BFD8?style=for-the-badge&logo=css3&logoColor=000000&labelColor=D8BFD8)
 ![Git](https://img.shields.io/badge/Git-D8BFD8?style=for-the-badge&logo=git&logoColor=000000&labelColor=D8BFD8)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-D8BFD8?style=for-the-badge&logo=github&logoColor=000000&labelColor=D8BFD8)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-D8BFD8?style=for-the-badge&logo=visualstudiocode&logoColor=000000&labelColor=D8BFD8)
 
 Este repositório contém o código-fonte da minha *landing page* pessoal e portfólio profissional, desenvolvida para reunir minha trajetória acadêmica, habilidades técnicas, conquistas e formas de contato.
 
