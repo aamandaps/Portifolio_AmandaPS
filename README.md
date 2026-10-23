@@ -21,7 +21,7 @@ Este repositório contém o código-fonte da minha *landing page* pessoal e port
 
 <br>
 
-##  To-Do
+##  To-Do List
 
 - [x] Estruturação do layout principal em HTML/CSS
 - [x] Configuração e publicação no GitHub Pages
@@ -32,7 +32,7 @@ Este repositório contém o código-fonte da minha *landing page* pessoal e port
 
 <br>
 
-## Executar o Projeto Localmente
+## Para Executar o Projeto Localmente
 
 1. Clone este repositório:
    ```bash
