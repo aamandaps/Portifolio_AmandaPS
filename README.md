@@ -34,6 +34,6 @@ Este repositório contém o código-fonte da minha *landing page* pessoal e port
 
 ## Para Executar o Projeto Localmente
 
-1. Clone este repositório:
+> Clone este repositório:
    ```bash
    git clone [https://github.com/aamandaps/Portifolio_AmandaPS.git](https://github.com/aamandaps/Portifolio_AmandaPS.git)
