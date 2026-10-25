@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hello World! Me chamo Amanda, sou estudante do Análise e Desenvolvimento de Sistemas na Fatec Zona Leste, e sou formada em Técnico de Desenvolvimento de Sistemas pela ETEC.">
-    <title>Amanda Sousa</title>
-
+    <meta name="description"
+        content="Hello World! Me chamo Amanda, sou estudante do Análise e Desenvolvimento de Sistemas na Fatec Zona Leste, e sou formada em Técnico de Desenvolvimento de Sistemas pela ETEC.">
     <!-- Tag para adicionar o Favicon -->
     <link rel="icon" type="image/png" href="img/assets/favicon.png">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    
+    <title>Amanda Sousa</title>
+
 </head>
 
 <body>
 
     <header class="cabecalho">
         <nav class="menu-header">
-            <a>Tecnologias e Interesses</a>
-             <a>Conquistas</a>
+            <a href="#sobremim">Sobre Mim</a>
+            <a href="#stacktech">Tecnologias e Interesses</a>
+            <a href="#conquistas">Conquistas</a>
         </nav>
     </header>
 
+    <!--Apresentação-->
     <main class="conteudo">
         <section class="conteudo-principal">
             <div class="conteudo-principal-texto">
@@ -30,18 +33,136 @@
                     Estudante de Análise e Desenvolvimento de Sistemas
                 </h2>
             </div>
-            <img class="conteudo-principal-img" 
-                src="img/coffeecat.jpeg" 
-                alt="gatinho cansado com café"
-                width="400"
-            >
+            <img class="conteudo-principal-img" src="img/coffeecat.jpeg" alt="gatinho cansado com café" width="400">
         </section>
-            
-        <section class="conteudo-secundario">
-            <h3 class="conteudo-secundario-titulo">Objetivo</h3>
-            <p class="conteudo-secundario-texto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quas, ipsum debitis molestiae voluptatibus animi distinctio autem, cupiditate iste architecto ut dignissimos ipsam. Excepturi cumque alias, temporibus praesentium aliquam provident!
+
+        <!--Sobre Mim-->
+        <section id="sobremim" class="conteudo-sobremim">
+            <h3 class="conteudo-sobremim-titulo">Sobre mim</h3>
+            <p class="conteudo-sobremim-texto">
+                Olá! Sou a Amanda Sousa, desenvolvedora em formação técnica e acadêmica na área de Análise e Desenvolvimento de Sistemas.
+                Minha trajetória é impulsionada pelo interesse em lógica de programação, arquitetura de sistemas e infraestrutura. Atualmente, aprofundo meus conhecimentos em Java, Python, containerização com Docker, ambiente Linux e fundamentos de Cloud Computing.
+                Objetivo Profissional: Atuar no desenvolvimento de software focado em Backend e engenharia de sistemas, colaborando em projetos reais e evoluindo na criação de arquiteturas de software modernas e escaláveis.
             </p>
+        </section>
+
+        <!--Stack Tech-->
+        <section id="stacktech" class="conteudo-stacktech">
+            <!--Subseção Conhecimentos-->
+            <h3 class="conteudo-stacktech-titulo"> Conhecimentos </h3>
+            <div class="cards-container">
+
+                <div class="card">
+
+                    <img src="img/assets/java.svg" alt="JavaIcon">
+                    <br>
+                    <h3>Java</h3>
+                    <br>
+                    <p>Estudo de orientação a objetos, estrutura de dados e lógica de programação para backend.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="img/assets/python.svg" alt="PythonIcon">
+                    <br>
+                    <h3>Python</h3>
+                    <br>
+                    <p>Sintaxe limpa e versátil aplicada à lógica de programação, automação de tarefas e fundamentos de análise.</p>
+                </div>
+
+                <div class="card">
+
+                    <img src="img/assets/html5.svg" alt="HTML5Icon">
+                    <br>
+                    <h3>HTML5</h3>
+                    <br>
+                    <p>Estruturação semântica de páginas web, organização de elementos e construção da base para aplicações front-end.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="img/assets/css3.svg" alt="CSS3Icon">
+                    <br>
+                    <h3>CSS3</h3>
+                    <br>
+                    <p>Estilização de interfaces, criação de layouts responsivos, componentes visuais e animações no estilo do projeto.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="img/assets/git.svg" alt="GitIcon">
+                    <br>
+                    <h3>Git</h3>
+                    <br>
+                    <p>Controle de versão de código-fonte, gerenciamento de branches, histórico de alterações e boas práticas de commits.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="img/assets/github.svg" alt="GitHubIcon">
+                    <br>
+                    <h3>GitHub</h3>
+                    <br>
+                    <p>Hospedagem de repositórios remotos, publicação de projetos via GitHub Pages e documentação de código.</p>
+
+                </div>
+
+            </div>
+
+            <!--Interesses-->
+            <h3 class="conteudo-stacktech-titulo2"> Interesses </h3>
+            <div class="cards-container">
+
+                <div class="card">
+
+                    <img src="img/assets/docker.svg" alt="DockerIcon">
+                    <br>
+                    <h3>Docker</h3>
+                    <br>
+                    <p>Conceitos de containerização, criação de ambientes isolados, padronização de deploys e noções de infraestrutura.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="img/assets/sql.svg" alt="SQLIcon">
+                    <br>
+                    <h3>SQL</h3>
+                    <br>
+                    <p>Modelagem de bancos de dados relacionais, criação de esquemas, comandos DDL/DML e consultas estruturadas.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="img/assets/aws.svg" alt="AWSIcon">
+                    <br>
+                    <h3>Amazon Web Services</h3>
+                    <br>
+                    <p>Fundamentos de computação em nuvem, noções de serviços essenciais da AWS e arquiteturas escaláveis.</p>
+                </div>
+
+                <div class="card">
+
+                    <img src="img/assets/springboot.svg" alt="SpringbootIcon">
+                    <br>
+                    <h3>Spring Boot</h3>
+                    <br>
+                    <p>Desenvolvimento de APIs RESTful, criação de microsserviços e estruturação de aplicações backend robustas com Java.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Conquistas-->
+        <section id="conquistas" class="conteudo-conquistas">
+            <h3 class="conteudo-conquistas-titulo"> Conquistas </h3>
+
         </section>
     </main>
 
@@ -49,4 +170,5 @@
         <h3 class="rodape-titulo">Minhas Redes</h3>
     </footer>
 </body>
+
 </html>

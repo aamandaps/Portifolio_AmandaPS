@@ -13,6 +13,25 @@ body {
     color: #ffffff;
 }
 
+/*Hoover na navbar*/
+a {
+    color: #e9e5e5;
+    padding: 0 10px;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/*Evita que o navegador force a cor roxa*/
+a:visited {
+    color: #e9e5e5;
+}
+
+a:hover {
+    transform: translateY(-4px);   
+    color: #d8bfd8;
+} /**/
+
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -23,8 +42,8 @@ body {
 
 .menu-header {
     display: flex;
-    gap: 58px; 
-    font-family: "Geom", sans-serif;   
+    gap: 58px;
+    font-family: "Geom", sans-serif;
     color: #e9e5e5;
     font-weight: 400;
     font-size: 18px;
@@ -37,6 +56,7 @@ body {
 }
 
 .conteudo-principal {
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -64,22 +84,36 @@ body {
 }
 
 .conteudo-principal-img {
-    width: 400px; 
+    width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    /*Transição para o hover*/
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.conteudo-secundario {
+.conteudo-principal-img:hover {
+    transform: translateY(-8px);
+    border-color: #d8bfd8;
+    box-shadow: 0 10px 20px rgba(216, 191, 216, 0.2);
+}
+
+.conteudo-sobremim {
+    min-height: 100vh;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
     margin-top: 48px;
+    max-width: 860px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.conteudo-secundario-titulo {
+.conteudo-sobremim-titulo {
     margin-bottom: 48px;
     border-top: 1px solid #e9e5e5;
     padding-top: 48px;
@@ -90,13 +124,120 @@ body {
     margin-bottom: 16px;
 }
 
-.conteudo-secundario-texto {
+.conteudo-sobremim-texto {
     font-family: "Geom", sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: #e9e5e5;
-    padding: 0 24px;;
+    padding: 0 24px;
     text-align: center;
+}
+
+.conteudo-stacktech {
+    min-height: 100vh;
+    padding: 2rem;
+
+}
+
+.conteudo-stacktech-titulo {
+    margin-bottom: 48px;
+    border-top: 1px solid #e9e5e5;
+    padding-top: 48px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    color: #e9e5e5;
+    margin-bottom: 16px;
+}
+
+.conteudo-stacktech-titulo2 {
+    margin-bottom: 48px;
+    padding-top: 48px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    color: #e9e5e5;
+    margin-bottom: 16px;
+}
+
+ /*Padronização dos cards*/
+.card {
+    flex: 0 0 220px;
+    min-height: 220px;
+    scroll-snap-align: start;
+    background-color: #2f2f35;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    /*Texto dos cards*/
+    font-family: "Geom", sans-serif;
+    font-weight: 100;
+    font-size: 1.05rem;
+    color: #e9e5e5;
+
+    /*Transição para o hover*/
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*Tamanho das imagens dos cards*/
+.card img {
+    width: 100px;                   
+    height: 100px;
+    margin-bottom: 0.8rem;
+}
+
+ /*Hover nos cards*/
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #d8bfd8;
+    box-shadow: 0 10px 20px rgba(216, 191, 216, 0.2);
+}
+
+.cards-container {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto; /*Rolagem horizontal dos cards*/
+    padding: 1rem 0.5rem 1.5rem;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 12px;
+}
+
+/* Barra de rolagem */
+.cards-container::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Barra de rolagem fundo */
+.cards-container::-webkit-scrollbar-track {
+  background: #18181b;
+  border-radius: 10px;
+}
+
+/* Barra de rolagem cor */
+.cards-container::-webkit-scrollbar-thumb {
+  background: #d8bfd868;
+  border-radius: 10px;
+}
+
+.conteudo-conquistas {
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.conteudo-conquistas-titulo {
+    margin-bottom: 48px;
+    border-top: 1px solid #e9e5e5;
+    padding-top: 48px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    color: #e9e5e5;
+    margin-bottom: 16px;
 }
 
 .rodape {
